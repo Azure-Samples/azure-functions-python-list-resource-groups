@@ -5,9 +5,8 @@ languages:
 products: 
 - azure-functions
 - azure-sdks
-urlFragment: azure-functions-python-sample_List_Resource_Groups
 description: "Getting the list of Resource Groups using Azure Functions"
-name: "Getting the list of Resource Groups using Azure Functions"
+urlFragment: "azure-functions-python-sample_List_Resource_Groups"
 ---
 
 # Getting the list of Resource Groups using Azure Functions
