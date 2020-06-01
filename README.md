@@ -3,10 +3,11 @@ page_type: sample
 languages: 
 - python
 products: 
-- azure-functions
+- azure
 - azure-sdks
+- azure-functions
 description: "Getting the list of Resource Groups using Azure Functions"
-urlFragment: "azure-functions-python-sample_List_Resource_Groups"
+urlFragment: azure-functions-python-sample-list-resource-groups
 ---
 
 # Getting the list of Resource Groups using Azure Functions
