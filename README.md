@@ -20,7 +20,7 @@ Here are some of the prerequisites to get this sample work for you.
 
 ### 1. Creating a new Azure Function App in VS Code
 
-For creating an Azure Function app in VSCode, please go through the [Microsoft Docs tutorial on creating your first Azure Function using Visual Studio Code](https://docs.microsoft.com/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-python). In the code snippet along with the sample, we name the function `GetListOfResourceGroups`, with the HTTP trigger. In the sample below, we will update the `function.json`.
+For creating an Azure Function App in VSCode, please go through the [Microsoft Docs tutorial on creating your first Azure Function using Visual Studio Code](https://docs.microsoft.com/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-python). In the code snippet along with the sample, we name the function `GetListOfResourceGroups`, with the HTTP trigger. In the sample below, we will update the `function.json`.
 
 ### 2. Updating the Requirements.txt to resolve the dependencies
 
@@ -48,7 +48,7 @@ Setting up `local.settings.json` would help you pass in the subscription Id
 }
 ```
 
-### 4. Managed Service Identity for the Azure Function app
+### 4. Managed Service Identity for the Azure Function App
 
 You need to toggle the system assigned identity flag to “On” here to get the app registered to interact with Azure resources using this managed identity .
 
